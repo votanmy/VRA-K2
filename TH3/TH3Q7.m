@@ -8,7 +8,7 @@ function TH3Q7(n)
     
     nTestImages = size(imgTestAll, 2);
 
-    if n>0 && n<10
+    if n>=0 && n<10
         count = 0;
         for t=1:nTestImages
             if(lblTestAll(t) == n)
