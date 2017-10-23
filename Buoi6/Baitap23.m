@@ -22,5 +22,5 @@ function Baitap23()
     [tform,inliermatchedpointsJ,inliermatchedpointsI] = estimateGeometricTransform(arrMathedPointI,arrMathedPointJ,'similarity');
 
     showMatchedFeatures(imgI,imgJ,inliermatchedpointsI,inliermatchedpointsJ,'montage','Parent',ax);
-    title(ax, 'Candidate point matches');    
+    title(ax, 'Matched inlier points');    
 end
